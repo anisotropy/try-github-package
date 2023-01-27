@@ -21,6 +21,6 @@ jobs:
           version: 6.0.2
       - run: pnpm install
       - run: pnpm build
-      - run: npm publish
+      - run: pnpm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
