@@ -11,6 +11,9 @@
       "require": "./dist/try-proj.umd.cjs"
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
