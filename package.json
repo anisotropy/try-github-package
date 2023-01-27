@@ -1,6 +1,6 @@
 {
   "name": "@anisotropy/try-github-project",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "type": "module",
   "main": "./dist/try-proj.umd.cjs",
   "module": "./dist/try-proj.js",
